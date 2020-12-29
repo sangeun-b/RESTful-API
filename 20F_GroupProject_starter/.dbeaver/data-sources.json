@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"h2_server-1764f698c50-4be9490059eca507": {
+			"provider": "generic",
+			"driver": "h2_server",
+			"name": "20fGroup_Project",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "12345",
+				"database": "~/20fGroup_Project",
+				"url": "jdbc:h2:tcp://localhost:12345/~/20fGroup_Project",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
